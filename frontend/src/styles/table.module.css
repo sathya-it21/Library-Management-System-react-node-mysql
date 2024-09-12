@@ -1,0 +1,76 @@
+/* table.module.css */
+
+/* Container styling */
+.container {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background: #609df7;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #007bff; 
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+.editButton {
+  background: #007bff;
+}
+
+.editButton:hover{
+  background: #156cc8;
+}
+
+.addButton {
+  background: #21c031;
+}
+.addButton:hover {
+  background: #0d921a;
+}
+
+.deleteButton {
+  background: #d32222;
+}
+
+
+.deleteButton:hover{
+  background: #bc0e0e;
+}
+
+/* Error message styling */
+.error {
+  color: #ff0000;
+  margin-bottom: 15px;
+}

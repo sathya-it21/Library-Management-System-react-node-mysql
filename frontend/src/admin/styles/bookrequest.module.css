@@ -1,0 +1,35 @@
+
+  /* Button styling */
+  .approveButton,
+  .rejectButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .approveButton {
+    background: #28a745;
+  }
+  
+  .approveButton:hover {
+    background: #218838;
+  }
+  
+  .rejectButton {
+    background: #dc3545;
+  }
+  
+  .rejectButton:hover {
+    background: #c82333;
+  }
+  
+  /* Message styling */
+  .bookRequestsMessage {
+    color: #333;
+    font-size: 16px;
+  }
+  

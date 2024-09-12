@@ -1,0 +1,28 @@
+
+  
+  /* Button styling */
+  .returnButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .returnButton:hover {
+    background: #0056b3;
+  }
+  
+  /* Message styling */
+  .errorMessage {
+    color: #dc3545;
+    font-size: 16px;
+  }
+  
+  .noBooksMessage {
+    color: #333;
+    font-size: 16px;
+  }
+  

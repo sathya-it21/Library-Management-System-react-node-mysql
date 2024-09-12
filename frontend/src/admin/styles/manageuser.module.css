@@ -1,0 +1,21 @@
+.activateButton,
+.deactivateButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    /* background: #007bff; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+.activateButton {
+    background-color: blue;
+    color: white;
+  }
+  
+  .deactivateButton {
+    background-color: red;
+    color: white;
+  }

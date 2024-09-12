@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const AuthorController = require('../controllers/AuthorController');
+const authorize = require('../middlewares/AuthMiddleware');
+router.post('/authors', authorize(['Admin']),AuthorController.createAuthor);
+router.get('/authors',authorize(['Admin', 'Member']), AuthorController.getAllAuthors);
+router.get('/authors/:id',authorize(['Admin', 'Member']), AuthorController.getAuthorById);
+router.put('/authors/:id',authorize(['Admin']) ,AuthorController.updateAuthorById);
+router.delete('/authors/:id',authorize(['Admin']), AuthorController.deleteAuthorById);
+module.exports = router;

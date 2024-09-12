@@ -1,0 +1,79 @@
+/* searchbook.module.css */
+
+.searchBooksContainer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchBooksForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .formField {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .formField input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .errorMessage {
+    color: #d9534f;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .paginationControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginationControls button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .paginationControls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .paginationControls span {
+    font-size: 16px;
+    color: #333;
+  }
+  

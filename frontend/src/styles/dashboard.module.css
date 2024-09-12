@@ -1,0 +1,67 @@
+/* dashboard.module.css */
+
+/* Container for the dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  /* Content section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Metrics container */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Metric item styling */
+  .metricItem {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .metricItem:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  /* Metric title styling */
+  .metricItem h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Metric value styling */
+  .metricItem p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin: 0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .metrics {
+      grid-template-columns: 1fr;
+    }
+  }
+  
